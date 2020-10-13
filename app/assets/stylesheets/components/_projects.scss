@@ -1,0 +1,21 @@
+.container-projects {
+  padding-top: 8px;
+  width: 100vw;
+  background-color: #00587a;
+  text-align: center;
+}
+
+.cards-projects {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.project {
+  height: 300px;
+  width: 400px;
+  border: 2px solid rgba(0, 0, 0, 0.125);
+  border-radius: 2px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}

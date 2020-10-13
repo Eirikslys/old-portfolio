@@ -1,2 +1,75 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="home-page">
+  <h1 class="header"> I'm Eirik, welcome to my portfolio </h1>
+  <div class="container">
+    <div class="card-top">
+      <%=image_tag("Eirik.jpg", class: "picture") %>
+      <div class="initdesc">
+        <p>Having done a masters degree in history and tried my hand at carpentry
+        I finally settled on software developer as my career</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-container">
+    <div class="about-me">
+      <h4>More about me</h4>
+      <p>In january 2020 I left my full-time job as a carpenter to dedicate myself fully to learning coding</p>
+      <p>I got started by learning from codecademy and reading books on programming, in may I started the Le Wagon web developer bootcamp in Oslo.</p>
+      <hr>
+    </div>
+    <div class="expertise">
+      <h4>TOP EXPERTISE</h4>
+      <p>A Software Engineer with a primary focus on technology over a particular language: <a target="_blank" href="JamesMonksCV.pdf">Download CV</a></p>
+        <div id="skills">
+          <ul>
+            <li>JavaScript</li>
+            <li>Ruby</li>
+            <li>Ruby on Rails</li>
+            <li>Active record</li>
+          </ul>
+          <ul>
+            <li>Heroku</li>
+            <li>HTML/CSS</li>
+            <li>Bootstrap</li>
+            <li>SQL</li>
+          </ul>
+      </div>
+    </div>
+    <div class="social-media">
+      <h3>Find me on LinkedIn & Github </h3>
+      <ul class="list-inline">
+        <li><a href="https://github.com/eirikslys" target="_blank">
+          <i class="fab fa-github-square fa-9x social-icon"></i>
+        </a></li>
+        <li><a href="https://www.linkedin.com/in/eirik-lysenst%C3%B8en-394a4439/" target="_blank">
+          <i class="fab fa-linkedin-in fa-9x social-icon"></i>
+        </a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container-projects">
+    <h2>Some of my former projects</h2>
+    <div class="cards-projects">
+      <div class="project">Hotspots</div>
+      <div class="project">Infitter</div>
+      <div class="project">Cocktail site</div>
+    </div>
+  </div>
+
+<div class="card">
+        <h2> Where to find me:</h2>
+        <ul class="list-inline">
+          <li><a href="https://github.com/eirikslys" target="_blank">
+            <i class="fab fa-github-square fa-2x"></i>
+          </a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=781365047" target="_blank">
+            <i class="fab fa-facebook-square fa-2x"></i>
+          </a></li>
+          <li><a href="https://www.linkedin.com/in/eirik-lysenst%C3%B8en-394a4439/" target="_blank">
+            <i class="fab fa-linkedin-in fa-2x"></i>
+          </a></li>
+        </ul>
+      </div>
+
+</div>

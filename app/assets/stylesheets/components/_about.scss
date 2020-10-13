@@ -1,0 +1,49 @@
+.about-container {
+  width: 100vw;
+  display: flex;
+  background-color: #008891;
+  border: 2px solid rgba(0, 0, 0, 0.125);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr))
+}
+
+.about-me {
+  // width: 700px;
+  margin: 24px;
+
+}
+
+.expertise {
+  margin:24px;
+}
+
+#skills {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(3, 92, 96);
+  justify-content: start;
+  width: 350px;
+}
+
+.social-media {
+  margin: 24px;
+  padding: 8px;
+}
+
+.social-icon {
+  color: black;
+  text-decoration:none;
+  margin: 12px;
+}
+
+.social-icon:hover {
+  color: black;
+  text-decoration:none;
+  cursor:pointer;
+
+}
+
+.list-inline li{
+  display: inline;
+  opacity: .8;
+}

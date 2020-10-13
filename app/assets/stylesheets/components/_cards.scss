@@ -1,0 +1,20 @@
+.card-top {
+  background-color: #008891;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.initdesc {
+  max-width: 250px;
+  margin: 30px;
+  text-align: center;
+  border: 2px solid rgba(0, 0, 0, 0.125);
+  border-radius: 2px;
+
+}
+
