@@ -10,12 +10,44 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+
 }
 
 .project {
-  height: 300px;
+  height: 500px;
   width: 400px;
+  padding: 4px;
+  background-color: rgb(0, 112, 153);
   border: 2px solid rgba(0, 0, 0, 0.125);
   border-radius: 2px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.project-links{
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+    color: black;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.project-links a {
+  color: black;
+  text-decoration:none;
+  cursor:pointer;
+  font-weight: 700;
+
+}
+.project-links a:hover {
+  color: black;
+  text-decoration:none;
+  cursor:pointer;
+  font-weight: 700;
+
 }

@@ -51,27 +51,34 @@
   <div class="container-projects">
     <h2>Some of my former projects</h2>
     <div class="cards-projects">
-      <div class="project">Hotspots <br>
+      <div class="project">
         <%=image_tag("hotspots.png", class: "picture-project") %>
+        <h5>Hotspots</h5>
+        <p>A Airbnb clone for people who want to rent out and hire locations to film photoshoots I made with two others during my bootcamp. Written in ruby on rails with active record and hosted on heroku.</p>
+        <div class="project-links">
+          <%= link_to "live website", "https://hotspotslw.herokuapp.com/" %>
+          <%= link_to "Github", "https://github.com/Eirikslys/hotspots" %>
+        </div>
       </div>
-      <div class="project">Infitter</div>
-      <div class="project">Cocktail site</div>
+      <div class="project">
+        <%=image_tag("infitter.png", class: "picture-project") %>
+        <h5>Infitter</h5>
+        <p>An application that lets people get colour matched suggestions for outfits and take pictures of clothes in the store to see what clothes in their wardrobe they would match. Made with a team of two others in the last part of the boot camp.</p>
+        <div class="project-links">
+          <%= link_to "live website", "infitter.net" %>
+          <%= link_to "Github", "https://github.com/Eirikslys/infitter" %>
+        </div>
+      </div>
+      <div class="project">
+        <%=image_tag("cocktail.png", class: "picture-project") %>
+        <h5>Cocktail-site</h5>
+        <p>A solo project</p>
+        <div class="project-links">
+          <%= link_to "coming soon", "#" %>
+          <%= link_to "Github", "https://github.com/Eirikslys/rails-mister-cocktail" %>
+        </div>
+      </div>
     </div>
   </div>
-
-<div class="card">
-        <h2> Where to find me:</h2>
-        <ul class="list-inline">
-          <li><a href="https://github.com/eirikslys" target="_blank">
-            <i class="fab fa-github-square fa-2x"></i>
-          </a></li>
-          <li><a href="https://www.facebook.com/profile.php?id=781365047" target="_blank">
-            <i class="fab fa-facebook-square fa-2x"></i>
-          </a></li>
-          <li><a href="https://www.linkedin.com/in/eirik-lysenst%C3%B8en-394a4439/" target="_blank">
-            <i class="fab fa-linkedin-in fa-2x"></i>
-          </a></li>
-        </ul>
-      </div>
-
+  <p>Made with rails</p>
 </div>
